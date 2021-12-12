@@ -1,6 +1,6 @@
 import RPi.GPIO as GPIO #importe la bibliotheque GPIO 
 import time #importe la bibliotheque temps
-GPIO.setmode(GPIO.BCM) #configuration generale de la numérotation électronique de la puce BCM quand a trouve dans la carte #board
+GPIO.setmode(GPIO.BCM) #configuration generale de la numérotation électronique de la puce BCM quand a trouve dans la carte electronique on peut remplacer par #board
 PIR_SENSOR_PIN=16 #defenir la numerisation du pin
 GPIO.setup(PIR_SENSOR_PIN, GPIO.IN) #configuration de la pin du capteur 
 print("lancement du capteur de presence IR(ctrl-c)")
